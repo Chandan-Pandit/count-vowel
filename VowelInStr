@@ -1,0 +1,8 @@
+str1=input ("Enter a string to count vowels:")
+count=0
+vowel=[]
+for i in range (len (str1)):
+    if str1 [i] in "aeiouAEIOU":
+        count+=1
+        vowel+=str1[i]
+print ("The given string has ",count," vowels.","These are: ",vowel)
